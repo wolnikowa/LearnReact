@@ -1,0 +1,44 @@
+@import '../base.scss';
+@import '../media.scss';
+.third{
+    width:70%;
+    margin:0 auto;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    h2{
+        flex:100%;
+        text-align:center;
+        font-size:12rem;
+        font-weight: bolder;
+    }
+    .cont{
+        flex:45%;
+        margin:20px;
+        >img{
+            width:100%;
+        }
+        >div{
+            margin-top:5px;
+            background-color: $lowOpacityWhite;
+            width:100%;
+            >h3{
+                font-size: 4rem;
+            }
+            >p{
+                border-top: 2px dashed $pinkDarker;
+                padding: 3px;
+                font-size: 3rem;
+                font-weight: lighter;
+                >a{
+                    text-decoration: none;
+                    background-color: $ReadMore;
+                    border-radius: 5px;
+                    color:$pinkDarker;
+                }
+            }
+        }
+    }
+
+}

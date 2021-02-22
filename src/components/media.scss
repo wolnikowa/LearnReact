@@ -1,0 +1,260 @@
+@media all and (max-width: 1500px) {
+    .baw{margin-bottom: 80px;
+        >.gallery .eight{top:47%;}
+        >.frame1{top:70%;}}
+        .del3{
+            display:none;
+        }
+        footer{
+            >div{
+                width:70%;}}
+}
+@media all and (max-width:1200px){
+    .baw{margin-bottom:40px;
+    >.gallery .two{
+        top:40%;
+    }
+    >.frame1{top:60%;}}
+    .third .cont{
+        >div{
+            >h3{
+                font-size: 3rem;
+            }
+            >p{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .del2, .del3{
+        display:none;
+    }
+    .third{
+        width:90%;}
+}
+@media all and (max-width:1050px){
+    .baw{margin-bottom:10px;
+        >.gallery .eight{top:35%;}
+        >.gallery .seven{top:40%;}
+    }
+    footer{
+        >div{
+            width:90%;}}
+    .del1{
+        display:none;
+    }
+}
+@media all and (max-width:900px){
+    header .follow{
+        >p{
+            font-size:3rem;
+        }
+    }
+    .first .number2{
+        margin:10px;
+        >article{
+            h1{
+                font-size:6rem;
+            }
+            font-size:4rem;
+        }
+    }
+    .third{
+        width:65%;
+        flex-direction: column;
+        h2{
+            font-size:10rem;
+        }
+        .cont{
+            >div{
+                >h3{
+                    font-size: 4rem;
+                }
+                >p{
+                    padding: 4px;
+                    font-size: 3rem;
+                }
+            }
+        }
+    
+    }
+    .baw{
+        position:static;
+        margin-bottom: 20px;
+        >h3{
+            font-size: 10rem;
+        }
+        >.gallery{
+            position:static;
+            width:100%;
+            height:initial;
+            margin: auto;
+            display:flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            .one, .two, .three, .four, .five, .six, .seven, .eight{
+                flex:4%;
+                position:static;
+                margin:10px;
+                border-radius: 10%;
+            }
+            
+        }
+        >.frame1{
+            display:none;
+        }
+        >.frame2{
+            display:none;
+        }
+    }
+}
+@media all and (max-width:875px){
+
+    footer{
+        >div{
+            >p:nth-of-type(2){
+                border-right: 0px ;
+                border-left:0px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .first{
+        .number1{
+        >.picture{
+            flex:25%;
+            >img{
+                width:100%;
+                height: 100%;
+            }}}}
+}
+@media all and (max-width:750px){
+    header{
+        margin-bottom: 50px;
+        >img{
+            height:400px;
+        }
+        >.bio{
+            width:15%;
+        }
+        >.description{
+            bottom:2%;
+            left:20%;
+            >p{
+                font-size: 3rem;
+            }
+        }
+
+    }
+    .first{
+        flex-direction:column;
+        >aside{
+            width:80%;
+            margin:auto;
+        }
+    }
+    .first{
+        .number1{
+        order:1;
+        width:70%;
+        margin:auto;
+        >.picture{
+            margin:10px;
+
+        }
+
+    }
+        >.number2{
+            margin-bottom:10px;
+            margin:auto;
+            >article{
+                text-align:justify;
+                h1{
+                    font-size:8rem;
+                }
+                p{
+                    margin-top:15px;
+
+                }
+                font-size:4rem;
+                p.del2{
+                    display:inline-block;
+                }
+            }
+        }
+    }
+    .third{
+        width:90%;
+        h2{
+            font-size:7rem;
+        }
+    
+    }
+    .baw{
+        width:100%;
+        margin-top:10px;
+        >h3{
+            font-size: 7rem;
+        }
+
+    }
+    
+}
+@media all and (max-width:500px){
+    footer{
+        >div{
+            margin: 0;
+            >p{
+                font-size: 1.5rem;
+            }
+            >span{
+                font-size:1rem;
+            }
+        }
+    }
+    nav {
+        width:100%;
+        height:45px;
+        >div {
+            width:95%;
+            >a{
+                font-size: 2rem;
+            }
+        }
+        img{
+            height:20px;
+        }
+        img:hover{
+            height: 20px;
+        }
+    }
+    header{
+        margin-bottom: 20px;
+        >img{
+            width:100%;
+            height:300px;
+        }
+        >.bio{
+            width:20%;
+        }
+        >.description{
+            left:26%;
+            >p{font-size: 1.5rem;}
+        }
+        >.follow{
+            visibility:hidden;
+        }
+    }
+    .first{
+        .number1{
+        >.picture{
+            display:none;
+            >img{
+                display:none;
+            }
+        }
+        
+
+    }}
+}
+
+

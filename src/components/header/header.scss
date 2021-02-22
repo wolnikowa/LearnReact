@@ -1,0 +1,64 @@
+@import "../base.scss";
+@import "../media.scss";
+header{
+    position:relative;
+    margin-bottom: 100px;
+    >img{
+        width:100%;
+        height:600px;
+    }
+    >.bio{
+        border-radius: 5%;
+        width:15%;
+        display:inline;
+        background-color:$lowOpacityPink;
+        position:absolute;
+        bottom: 2%;
+        left:2%;
+        padding:5px;
+        >img{
+            border-radius: 50%;
+            width:100%;
+        }
+    }
+    >.description{
+        padding:8px;
+        margin-right:8px;
+        position:absolute;
+        bottom:2%;
+        left:20%;
+        color:white;
+        background-color:$lowOpacityPink;
+        >p{
+            color:white;
+            font-size: 3rem;
+        }
+    }
+    >.follow{
+        position:absolute;
+        top:30%;
+        right:7%;
+        animation-name: insta;
+        animation-duration: 15s;
+        >p{
+            float:left;
+            font-size:5rem;
+            color:$pinkColor;
+            background-color:$lowOpacityWhite;
+            line-height:70px;
+        }
+        >img{
+            float:left;
+        }
+    }
+}
+@keyframes insta{
+    0%{
+        top:-10%;
+        right:7%;
+    }
+    100%{
+        top:30%;
+        right:7%;
+    }
+}
