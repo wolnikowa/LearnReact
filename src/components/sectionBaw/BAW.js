@@ -12,17 +12,17 @@ import eight from "./../../../images/max-brown-QhPmpNdNHWo-unsplash.jpg";
 class BAW extends React.Component{
     render() {
         return (
-<section class='baw'>
+<section className='baw'>
 <h3><em>Black and white gallery</em></h3>
 <div className='gallery'>
-    <img class='one' src={one} />
-    <img class='two' src={two} />
-    <img class='three' src={three} />
-    <img class='four' src={four} />
-    <img class='five' src={five} />
-    <img class='six' src={six} />
-    <img class='seven' src={seven} />
-    <img class='eight' src={eight} />
+    <img className='one' src={one} />
+    <img className='two' src={two} />
+    <img className='three' src={three} />
+    <img className='four' src={four} />
+    <img className='five' src={five} />
+    <img className='six' src={six} />
+    <img className='seven' src={seven} />
+    <img className='eight' src={eight} />
 </div>
 <div className='frame1'></div>
 <div className='frame2'></div>
